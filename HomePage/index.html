@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/FirstPage/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="../FirstPage/shopping-cart-vector-icon-flat-260nw-1690453492.webp" type="image/x-icon">
+    <link rel="stylesheet" href="../FirstPage/style.css">
+    <title>MyShop</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navContainer">
+            <div class="leftNav">
+               <h4 id="textNav">MyShop</h4> 
+            </div>
+            <div class="rightNav">
+                <a href="#">Home</a>
+
+                <!-- <span id="cart"></span> -->
+                <a href="../HomePage/Mycart">Mycart</a>
+                <a href="/ProfilePage">Profile</a>
+            </div>
+        </nav>
+        <aside class="sideBar">
+
+            <form id="inputs">
+                <div class="color common ">
+                    <label for="colors">Colors</label>
+                   <div class="commonInput">
+                    <input type="checkbox" id="Red" value="Red">Red
+                   </div>
+                   <div class="commonInput">
+                    <input type="checkbox" id="Blue" value="Blue">Blue
+                    </div>
+                    <div class="commonInput">
+                    <input type="checkbox" id="Green" value="Green">Green
+                    </div>
+                    <div class="commonInput">
+                    <input type="checkbox" id="Black" value="Black">Black
+                    </div>
+                    <div class="commonInput">
+                    <input type="checkbox" id="White" value="White">White
+                    </div>
+                </div>
+                <hr>
+                <div class="Size common">
+                    <label for="Sizes">Sizes</label>
+                    <div class="commonInput">
+                    <input type="checkbox" id="S" value="S">S
+                    </div>
+                    <div class="commonInput">
+                    <input type="checkbox" id="M" value="M">M
+                    </div>
+                    <div class="commonInput">
+                    <input type="checkbox" id="L" value="L">L
+                    </div>
+                    <div class="commonInput">
+                        <input type="checkbox" id="XL" value="XL">XL
+                        </div>
+                        <div class="commonInput">
+                            <input type="checkbox" id="XXL" value="XXL">XXL
+                          </div>
+                </div>
+                <hr>
+                <div class="ratings common">
+                    <label for="Rating">Rating</label>
+                    <div class="commonInput">
+                    0<input type="range" value="0" min="0" max="5" class="slider" id="range">5
+                    </div>
+                </div>
+                <hr>
+                <div class="PriceRanges common">
+                    <label for="Pricerange">Price Range</label>
+                    <div class="commonInput">
+                    <input type="checkbox" id="0T25" value="0to25">$0 to $25
+                    </div>
+                    <div class="commonInput">
+                    <input type="checkbox" id="25T50"value="25to50">$25 to $50
+                    </div>
+                    <div class="commonInput">
+                        <input type="checkbox" id="50T100" value="50to100">$50 to $100
+                    </div>
+                    <div class="commonInput">
+                    <input type="checkbox" id="100T10000" value="100to10000">$100 onwards
+                    </div>
+                </div>
+            
+                <button type="submit" id="applyFilter">Apply Filter</button>
+            </form>
+            
+        </aside>
+        <div class="main-container">
+            <input type="text" id="searchBar" placeholder="Search">
+            <div class="category">
+                
+                <button id="All"class="sortcategory categoryBtn" >All</button>
+                <button id="Mens"class="categoryBtn">Mens</button>
+                <button id="Womens"class="categoryBtn">Womens</button>
+                <button id="Jewellery"class="categoryBtn">Jewellery</button>
+                <button id="Electronics"class="categoryBtn">Electronics</button>
+            </div>
+            <div class="cardsContainer">
+                <div class="mensClothing" id="mensContainer">
+                    <h2 id="mensText">Mens Clothing</h2>
+                    <div id="mens"></div>
+                </div>
+                <div class="WomensClothing" id="WomensContainer">
+                    <h2 id="womensText"> Womens Clothing</h2>
+                <div id="womens"></div>
+                </div>
+                <div class="jewellery" id="jewelContainer">
+                    <h2 id="jewelText"> Jewellery</h2>
+                <div  id="jewel"></div>
+                </div>
+                <div class="electronics" id="electronicsContainer">
+                    <h2 id="electronText">Electronics</h2>
+                <div  id="electron"></div>
+            </div>
+        </div>
+        </div>
+          
+
+<script src="./script.js"></script>
+ 
+</body>
+</html>

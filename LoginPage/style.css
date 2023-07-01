@@ -1,0 +1,24 @@
+.loginPage{
+    margin-top:60px;
+    display:flex;
+flex-direction: column;
+padding:50px 100px;
+}
+.loginText{
+    margin-top:60px
+}
+input{
+    margin:15px;
+    height:40px;
+    font-size: 24px;
+    /* padding:5px; */
+}
+#loginButton{
+    /* padding:5px; */
+    margin:15px;
+    width:150px;
+    height:50px;
+    font-size:24px;
+    background-color: black;
+    color:white;
+}

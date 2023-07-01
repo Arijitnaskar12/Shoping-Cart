@@ -1,0 +1,28 @@
+.container{
+    margin-top:62px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:162px;
+    margin:30px;
+}
+.missing{
+    font-size: 18px;
+    font-weight:800;
+    margin:5px;
+}
+.logintosee{
+    font-size:14px;
+    margin:10px;
+}
+.loginbutton{
+    background-color: black;
+    color:white;
+    padding:10px;
+    width:138px;
+    height:40px;
+    margin:10px;
+}

@@ -1,0 +1,151 @@
+body{
+    background-color:antiquewhite
+}
+.main-container{
+    padding:80px 0 0 220px;
+} 
+img{
+    width:250px;
+    height:250px;
+}
+.details{
+    /* background-color: rgb(52, 52, 52); */
+    width:200px; 
+    color:black;
+}
+.details .description{
+    width:230px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside{
+    /* background-color:rgb(254, 213, 255); ; */
+    height:100vh;
+    width:200px;
+     margin-top:60px;
+ background: black;
+ color:white;
+border:2px solid white;
+position:fixed;
+}
+#applyFilter{
+    background-color: black;
+    color:white;
+    width:auto;
+    font-size:20px;
+    border:1px solid white;
+    padding:5px;
+    margin-left:50px;
+    margin-top:50px;
+}
+#addtoCart{
+    background-color: black;
+    color:white;
+    padding:10px;
+    width:250px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+#addtoCart:hover{
+    transform:scale(1);
+}
+ .cardsContainer{ 
+    padding:30px;
+
+ } 
+#mens{
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+    /* justify-content:space-between; */
+}
+#womens{
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+    /* justify-content:space-between; */
+}
+#jewel{
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content:space-between; */
+    gap:10px;
+}
+
+#electron{
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+    /* justify-content:space-between; */
+}
+#prodTitle{
+    width:250px;
+}
+.cardContainer{
+    border:2px solid black;
+    width:250px; 
+    height:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    gap:10px;
+    }
+label{
+    text-align: center;
+    display: block;
+}
+.commonInput{
+    width:150px;
+}
+.common{
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+}
+#searchBar{
+    font-size: 24px;;
+     width:1120px;
+    height:40px;
+    border-radius:5px;
+
+}
+.main-container .category{
+    display: flex;
+    justify-content: space-evenly;
+}
+.category .categoryBtn{
+    margin:10px 10px 0 10px;
+    width:150px;
+    background:white;
+    height:30px;
+    border:1px solid black;
+}
+.category .sortcategory{
+    margin:10px 10px 0 10px;
+    width:150px;
+    background:black;
+    height:30px;
+    border:1px solid black;
+    color:white;
+}
+.RED{
+    color:red;
+}
+.BLACK{
+    color:black;
+}
+.GREEN{
+    color:green;
+}
+.BLUE{
+    color:blue;
+}
+.WHITE{
+    color:black;
+}

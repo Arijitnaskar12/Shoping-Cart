@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    padding:50px 100px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin:10px;
+}
+input{
+    margin:10px;
+    font-size: 24px;
+    height:32px;
+  
+}
+button{
+    background-color: black;
+    color:white;
+    padding:10px;
+    width:138px;
+    height:40px;
+    margin:10px;
+}
